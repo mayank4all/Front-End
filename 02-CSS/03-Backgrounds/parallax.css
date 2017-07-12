@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    background-image: url("../../WebImages/GalleryComics_1920x1080_.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    /*Background: color image repeat position/size attachement*/
+    
+    /*Background Shorthand*/
+/*    background: url("../../SupermanLogo.png") no-repeat center/100% 100% fixed;*/
+}
+
+
+#blank {
+    background-color: #fff;
+}
+
+div {
+    height: 786px;
+    margin-bottom: 300px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#div1 {
+    background-image: url("../../WebImages/Iron%20man.jpg");
+}
+#div2 {
+    background-image: url("../../WebImages/batman.jpg");
+}
+#div3 {
+    background-image: url("../../WebImages/The%20joker.jpg");
+}
+#div4 {
+    background-image: url("../../WebImages/SupermanLogo.png")
+}
+#div5 {
+    background-image: url("../../WebImages/batman-begins.0.0.jpg");
+}

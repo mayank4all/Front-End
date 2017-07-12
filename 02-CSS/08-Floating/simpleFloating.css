@@ -1,0 +1,25 @@
+
+.column_1, .column_2 {
+    
+}
+.two-col-layout {
+    border: 2px solid red;
+}
+.column_1 {
+    float: left;
+    width: 40%;
+    border-right: 1px solid #000;
+    
+}
+.column_2 {
+    float: left;
+    width: 59%;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.div_1 {
+    background-color: deepskyblue;
+}

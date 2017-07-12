@@ -1,0 +1,18 @@
+.commonHeight {
+    height: 100px;
+}
+#div1 {
+    background-color: fuchsia;
+    width: 300px;
+}
+#div2 {
+    width: 500px;
+    background-color: firebrick;
+}
+.div3 {
+    background-color: dimgrey;
+    width: 700px;
+}
+.div_3 {
+    background-color: deepskyblue;
+}

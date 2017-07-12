@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            height: 200px;
+            width: 300px;
+            border: 2px solid red;
+            position: relative;
+            overflow: hidden;
+        }
+        div:after {
+            content: "";
+            /*border: 40px solid red;*/
+            position: absolute;
+            bottom: -40px;
+            right: 0px;
+            /*border-bottom: 40px solid red;*/
+            border-top: 40px solid blue;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+        }
+        /*div:before {
+            content: "";
+            background-image: url("../../images/slide-next-btn.png");
+            height: 32px;
+            width: 32px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }*/
+        div:before {
+            content: "";
+            background: rgb(0,0,0);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+            display: none;
+        }
+        div:hover:before {
+            display: block;
+            opacity: 0.5;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Making Triangles with Borders</h1>
+   
+   <div>
+       <img src="../../WebImages/batman.jpg" alt="">
+   </div>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+#div1 {
+    background-color: dodgerblue;
+    height: 200px;
+}
+
+.nestedDiv {
+    background-color: darkviolet;
+    height: 100px;
+}
+
+#div2 .nestedDiv {
+    background-color: darkslategray;
+}
+
+.class_1 .anotherNested {
+    background-color: firebrick;
+    height: 50px;
+}
+
+#div3 .nestedDiv  {
+    background-color: yellow;
+}

@@ -1,0 +1,27 @@
+#div1, #div4 {
+    height: 100px; 
+    width: 300px;
+    background-color: firebrick;
+}
+#div2 {
+    height: 100px; 
+    width: 300px;
+    background-color: dodgerblue;
+}
+#div3 {
+    height: 100px; 
+    width: 300px;
+    background-color: darkslategray;
+}
+
+/*
+#div4 {
+    height: 100px; 
+    width: 300px;
+    background-color: orange;
+}
+*/
+
+#div2.class_1 {
+    background-color: darkolivegreen;
+}
