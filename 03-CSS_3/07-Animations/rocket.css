@@ -1,0 +1,40 @@
+.container {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+.earth {
+    height: 300px;
+    width: 400px;
+    background-image: url("../../WebImages/earth-spinning-rotating-animation-14.gif");
+    background-repeat: no-repeat;
+}
+.rocket {
+    background-size: 16%;
+    background-image: url(../../WebImages/rocketship.jpg);
+    height: 100px;
+    left: -120px;
+    width: 580px;
+    top: 100px;
+    transform: rotateZ(90deg);
+    position: absolute;
+    background-repeat: no-repeat;
+    transition: 30s;
+    animation-name: rocket;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rocket {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+        z-index: -1;
+    }
+}
+
+.container:hover .rocket {
+    animation-play-state: pauseds;
+}

@@ -1,0 +1,43 @@
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#content {
+    display: flex;
+}
+.column {
+    /*float: left;
+    width: 45%;*/
+    border-right: 1px solid red;
+    padding: 0px 10px 0px 20px;
+}
+.column:last-child {
+    border: none;
+}
+.column img {
+    width: 100%;
+}
+
+@media(max-width:767px){
+    body {
+        background-color: firebrick;
+    }
+    #content {
+        display: block;
+    }
+    .column {
+        /*float: none;
+        width: 100%;*/
+        padding: 0px 0px;
+        border-right: none;
+        border-bottom: 1px solid red;
+    }
+}
+
+@media(min-width:992px){
+    body {
+        background-color: dodgerblue;
+    }
+}

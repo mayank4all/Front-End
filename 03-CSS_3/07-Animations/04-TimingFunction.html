@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 0px;
+            background-color: dodgerblue;
+            animation: timing 5s infinite alternate;
+        }
+        #div_1 {
+            top: 20px;
+            animation-timing-function: ease;
+        }
+        #div_2 {
+            top: 140px;
+            animation-timing-function: ease-in;
+        }
+        #div_3 {
+            top: 260px;
+            animation-timing-function: ease-in-out;
+        }
+        #div_4 {
+            top: 380px;
+            animation-timing-function: ease-out
+        }
+        #div_5 {
+            top: 500px;
+            animation-timing-function: linear;
+        }
+        @keyframes timing {
+            0% {
+                left: 0px;
+            }
+            100% {
+                left: 900px;
+            }
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Animation Timing Function</h1>
+   
+   <div id="div_1"></div>
+   <div id="div_2"></div>
+   <div id="div_3"></div>
+   <div id="div_4"></div>
+   <div id="div_5"></div>
+    
+</body>
+</html>

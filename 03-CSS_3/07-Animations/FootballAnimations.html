@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        img {
+            width: 100%;
+        }
+        div {
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            bottom: 0px;
+            /*background-color: dodgerblue;*/
+            animation: timing 5s infinite;
+        }
+        #div_1 {
+            
+            animation-timing-function: ease;
+        }
+        #div_2 {
+            
+            animation-timing-function: ease-in;
+        }
+        #div_3 {
+            
+            animation-timing-function: ease-in-out;
+        }
+        #div_4 {
+        
+            animation-timing-function: ease-out
+        }
+        #div_5 {
+            
+            animation-timing-function: linear;
+        }
+        @keyframes timing {
+            0% {
+                left: 500px;
+                bottom: 0px;
+            }
+            25% {
+                left: 0px;
+                bottom: 250px;
+                transform: rotateZ(1440deg);
+            }
+            50% {
+                left: 500px;
+                bottom: 500px;
+            }
+            75% {
+                left: 1000px;
+                bottom: 250px;
+            }
+            100% {
+                left: 500px;
+                bottom: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+   
+   <h1>Animation Timing Function</h1>
+   
+   <div id="div_1"><img src="../../WebImages/ball.png" alt=""></div>
+   <div id="div_2"><img src="../../WebImages/ball.png" alt=""></div>
+   <div id="div_3"><img src="../../WebImages/ball.png" alt=""></div>
+   <div id="div_4"><img src="../../WebImages/ball.png" alt=""></div>
+   <div id="div_5"><img src="../../WebImages/ball.png" alt=""></div>
+   
+</body>
+</html>
